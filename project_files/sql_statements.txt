@@ -1,0 +1,375 @@
+pg_dump: reading extensions
+pg_dump: identifying extension members
+pg_dump: reading schemas
+pg_dump: reading user-defined tables
+pg_dump: reading user-defined functions
+pg_dump: reading user-defined types
+pg_dump: reading procedural languages
+pg_dump: reading user-defined aggregate functions
+pg_dump: reading user-defined operators
+pg_dump: reading user-defined operator classes
+pg_dump: reading user-defined operator families
+pg_dump: reading user-defined text search parsers
+pg_dump: reading user-defined text search templates
+pg_dump: reading user-defined text search dictionaries
+pg_dump: reading user-defined text search configurations
+pg_dump: reading user-defined foreign-data wrappers
+pg_dump: reading user-defined foreign servers
+pg_dump: reading default privileges
+pg_dump: reading user-defined collations
+pg_dump: reading user-defined conversions
+pg_dump: reading type casts
+pg_dump: reading transforms
+pg_dump: reading table inheritance information
+pg_dump: reading event triggers
+pg_dump: finding extension tables
+pg_dump: finding inheritance relationships
+pg_dump: reading column info for interesting tables
+pg_dump: finding the columns and types of table "public.beanstalk"
+pg_dump: finding the columns and types of table "public.images"
+pg_dump: finding default expressions of table "public.images"
+pg_dump: finding the columns and types of table "public.page"
+pg_dump: finding default expressions of table "public.page"
+pg_dump: finding the columns and types of table "public.pagecontent"
+pg_dump: finding default expressions of table "public.pagecontent"
+pg_dump: finding the columns and types of table "public.listing"
+pg_dump: finding default expressions of table "public.listing"
+pg_dump: finding the columns and types of table "public.member"
+pg_dump: finding default expressions of table "public.member"
+pg_dump: finding the columns and types of table "public.image"
+pg_dump: finding default expressions of table "public.image"
+pg_dump: finding the columns and types of table "public.content"
+pg_dump: finding default expressions of table "public.content"
+pg_dump: finding the columns and types of table "public.example"
+pg_dump: finding default expressions of table "public.example"
+pg_dump: finding the columns and types of table "public.uploaded_image"
+pg_dump: finding default expressions of table "public.uploaded_image"
+pg_dump: finding the columns and types of table "public.lead"
+pg_dump: finding default expressions of table "public.lead"
+pg_dump: finding the columns and types of table "public.blogentry"
+pg_dump: finding default expressions of table "public.blogentry"
+pg_dump: finding the columns and types of table "public.pre_sale"
+pg_dump: finding default expressions of table "public.pre_sale"
+pg_dump: finding the columns and types of table "public.flat_image"
+pg_dump: finding default expressions of table "public.flat_image"
+pg_dump: finding the columns and types of table "public.member_listings"
+pg_dump: finding default expressions of table "public.member_listings"
+pg_dump: flagging inherited columns in subtables
+pg_dump: reading indexes
+pg_dump: reading indexes for table "public.images"
+pg_dump: reading indexes for table "public.page"
+pg_dump: reading indexes for table "public.pagecontent"
+pg_dump: reading indexes for table "public.listing"
+pg_dump: reading indexes for table "public.member"
+pg_dump: reading indexes for table "public.image"
+pg_dump: reading indexes for table "public.content"
+pg_dump: reading indexes for table "public.example"
+pg_dump: reading indexes for table "public.uploaded_image"
+pg_dump: reading indexes for table "public.lead"
+pg_dump: reading indexes for table "public.blogentry"
+pg_dump: reading indexes for table "public.pre_sale"
+pg_dump: reading indexes for table "public.flat_image"
+pg_dump: reading constraints
+pg_dump: reading triggers
+pg_dump: reading rewrite rules
+pg_dump: reading policies
+pg_dump: reading large objects
+pg_dump: reading dependency data
+pg_dump: saving encoding = UTF8
+pg_dump: saving standard_conforming_strings = on
+pg_dump: saving database definition
+pg_dump: dumping contents of table "public.beanstalk"
+pg_dump: dumping contents of table "public.blogentry"
+pg_dump: dumping contents of table "public.content"
+pg_dump: dumping contents of table "public.example"
+pg_dump: dumping contents of table "public.flat_image"
+pg_dump: dumping contents of table "public.image"
+pg_dump: dumping contents of table "public.images"
+pg_dump: dumping contents of table "public.lead"
+pg_dump: dumping contents of table "public.listing"
+pg_dump: dumping contents of table "public.member"
+pg_dump: dumping contents of table "public.member_listings"
+pg_dump: dumping contents of table "public.page"
+pg_dump: dumping contents of table "public.pagecontent"
+pg_dump: dumping contents of table "public.pre_sale"
+pg_dump: dumping contents of table "public.uploaded_image"
+
+select l_listingid,
+l_area,
+l_city,
+l_displayid,
+l_status,
+l_updatedate,
+l_address,
+l_addressdirection,
+l_addressnumber,
+l_addressstreet,
+l_addressunit,
+l_listingdate,
+l_last_photo_updt,  
+l_listagent1,
+ l_listagent2,
+  l_listagent3,
+  l_listoffice1,
+   l_listoffice2,
+   l_listoffice3,
+   lr_remarks33,
+   l_picturecount,
+   l_state,
+   lfd_featuresincluded_24,
+   lfd_siteinfluences_15,
+   lfd_styleofhome_1,
+lmd_mp_latitude,
+lmd_mp_longitude,
+l_streetdesignationid,
+lo1_organizationname,
+lo1_phonenumber1,
+lo1_shortname,
+lo2_organizationname, 
+lo2_shortname,
+lo2_phonenumber1,
+lo3_organizationname,
+lo3_shortname,
+lr_remarks22,
+la1_char100_1, 
+la1_loginname, 
+la1_phonenumber1, 
+ la1_webpage, 
+ la2_char100_1, 
+ la2_loginname, 
+ la2_phonenumber1,  
+ la2_webpage, 
+la3_char100_1, 
+la3_loginname, 
+la3_phonenumber1,  
+la3_webpage, 
+lfd_amenities_25,
+ lfd_basementarea_6, 
+ lm_char10_11,  
+ lm_char10_12,  
+lm_char10_23,   
+lm_char10_5,   
+lm_char10_6,  
+lm_dec_1,  
+lm_dec_11,  
+lm_dec_12,  
+lm_dec_13,  
+lm_dec_14,  
+lm_dec_16,  
+lm_dec_22,   
+lm_dec_7,  
+lm_dec_8,  
+lm_dec_9,  
+lm_int1_1,  
+lm_int1_17,  
+lm_int1_18, 
+lm_int1_19, 
+lm_int1_2, 
+lm_int1_4, 
+lm_int2_2 , 
+lm_int2_3, 
+lm_int2_5,
+lm_int2_8, 
+lm_char100_3, 
+lm_char1_36,  
+lm_char30_28,  
+lv_vow_address, 
+lv_vow_include,  
+l_zip, 
+vt_vtoururl, 
+tokeep,
+sqft_int,
+l_askingprice,
+six_forty_path, 
+three_twenty_path, 
+one_sixty_path from Listing limit 1
+
+Create table member_listings (
+l_listingid,
+l_area,
+l_city,
+l_displayid,
+l_status,
+l_updatedate,
+l_address,
+l_addressdirection,
+l_addressnumber,
+l_addressstreet,
+l_addressunit,
+l_listingdate,
+l_last_photo_updt,  
+l_listagent1,
+ l_listagent2,
+  l_listagent3,
+  l_listoffice1,
+   l_listoffice2,
+   l_listoffice3,
+   lr_remarks33 text,
+   l_picturecount,
+   l_state,
+   lfd_featuresincluded_24,
+   lfd_siteinfluences_15,
+   lfd_styleofhome_1,
+lmd_mp_latitude,
+lmd_mp_longitude,
+l_streetdesignationid,
+lo1_organizationname,
+lo1_phonenumber1,
+lo1_shortname,
+lo2_organizationname, 
+lo2_shortname,
+lo2_phonenumber1,
+lo3_organizationname,
+lo3_shortname,
+lo3_phonenumber1,
+lr_remarks22,
+la1_char100_1, 
+la1_loginname, 
+la1_phonenumber1, 
+ la1_webpage, 
+ la2_char100_1, 
+ la2_loginname, 
+ la2_phonenumber1,  
+ la2_webpage, 
+la3_char100_1, 
+la3_loginname, 
+la3_phonenumber1,  
+la3_webpage, 
+lfd_amenities_25,
+ lfd_basementarea_6, 
+ lm_char10_11,  
+ lm_char10_12,  
+lm_char10_23,   
+lm_char10_5,   
+lm_char10_6,  
+lm_dec_1,  
+lm_dec_11,  
+lm_dec_12,  
+lm_dec_13,  
+lm_dec_14,  
+lm_dec_16,  
+lm_dec_22,   
+lm_dec_7,  
+lm_dec_8,  
+lm_dec_9,  
+lm_int1_1,  
+lm_int1_17,  
+lm_int1_18, 
+lm_int1_19, 
+lm_int1_2, 
+lm_int1_4, 
+lm_int2_2 , 
+lm_int2_3, 
+lm_int2_5,
+lm_int2_8, 
+lm_char100_3, 
+lm_char1_36,  
+lm_char30_28,  
+lv_vow_address, 
+lv_vow_include,  
+l_zip, 
+vt_vtoururl, 
+tokeep,
+sqft_int,
+l_askingprice,
+six_forty_path, 
+three_twenty_path, 
+one_sixty_path
+) 
+
+
+
+l_listingid integer not null default '0',
+l_area varchar(256) not null default '',
+l_city varchar(256) not null default '',
+l_displayid varchar(10) not null default '',
+l_status varchar(15) not null default '',
+l_updatedate timestamp ,
+l_address varchar(256) not null default '',
+l_addressdirection varchar(256) not null default '',
+l_addressnumber varchar(30) not null default '',
+l_addressstreet varchar(256) not null default '',
+l_addressunit varchar(90) not null default '',
+l_listingdate date default '1970-01-01',
+l_last_photo_updt date default '1970-01-01',  
+l_listagent1 varchar(10) not null default '',
+ l_listagent2 varchar(10) not null default '',
+  l_listagent3 varchar(10) not null default '',
+  l_listoffice1 varchar(10) not null default '',
+   l_listoffice2 varchar(10) not null default '',
+   l_listoffice3 varchar(10) not null default '',
+   lr_remarks33 text,
+   l_picturecount  varchar(10) not null default '',
+   l_state  varchar(90) not null default '',
+   lfd_featuresincluded_24 varchar(256) not null default '',
+   lfd_siteinfluences_15  varchar(256) not null default '',
+   lfd_styleofhome_1  varchar(256) not null default '',
+lmd_mp_latitude  varchar(30) not null default '',
+lmd_mp_longitude  varchar(30) not null default '',
+l_streetdesignationid  varchar(10) not null default '',
+lo1_organizationname  varchar(256) not null default '',
+lo1_phonenumber1  varchar(20) not null default '',
+lo1_shortname  varchar(20) not null default '',
+lo2_organizationname  varchar(256) not null default '', 
+lo2_shortname  varchar(20) not null default '',
+lo2_phonenumber1  varchar(20) not null default '',
+lo3_organizationname  varchar(256) not null default '',
+lo3_shortname  varchar(20) not null default '',
+lo3_phonenumber1  varchar(20) not null default '',
+lr_remarks22 text,
+la1_char100_1 varchar(70) not null default '', 
+la1_loginname varchar(30) not null default '', 
+la1_phonenumber1 varchar(15) not null default '', 
+ la1_webpage varchar(256) not null default '', 
+ la2_char100_1 varchar(70) not null default '', 
+ la2_loginname varchar(30) not null default '', 
+ la2_phonenumber1 varchar(15) not null default '',  
+ la2_webpage varchar(256) not null default '', 
+la3_char100_1 varchar(70) not null default '', 
+la3_loginname varchar(30) not null default '', 
+la3_phonenumber1 varchar(15) not null default '',  
+la3_webpage  varchar(256) not null default '', 
+lfd_amenities_25 varchar(256) not null default '',
+ lfd_basementarea_6, 
+ lm_char10_11 ,  
+ lm_char10_12,  
+lm_char10_23,   
+lm_char10_5,   
+lm_char10_6,  
+lm_dec_1,  
+lm_dec_11,  
+lm_dec_12,  
+lm_dec_13,  
+lm_dec_14,  
+lm_dec_16,  
+lm_dec_22,   
+lm_dec_7,  
+lm_dec_8,  
+lm_dec_9,  
+lm_int1_1,  
+lm_int1_17,  
+lm_int1_18, 
+lm_int1_19, 
+lm_int1_2, 
+lm_int1_4, 
+lm_int2_2, 
+lm_int2_3, 
+lm_int2_5,
+lm_int2_8, 
+lm_char100_3, 
+lm_char1_36,  
+lm_char30_28,  
+lv_vow_address, 
+lv_vow_include,  
+l_zip, 
+vt_vtoururl, 
+tokeep,
+sqft_int,
+l_askingprice,
+six_forty_path, 
+three_twenty_path , 
+one_sixty_path from listing limit 1
+
+
+
+ from listing where lo1_shortname in ('V003843') limit 1
